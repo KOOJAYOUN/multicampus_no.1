@@ -48,3 +48,4 @@ with open("datalab\\mydata5.json", "w", encoding="utf-8") as writeFile:
 
 
 temp =0
+
