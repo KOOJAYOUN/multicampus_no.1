@@ -14,7 +14,7 @@ def FlaskData():
 
     dataURL = "https://api.odcloud.kr/api/apnmOrg/v1/list?"
     dataURL += "page=" + str(1) + "&perPage=" + str(10)
-    dataURL += "&cond=" + "강남구"
+    dataURL += "&cond=" + ""
     dataURL += "&serviceKey=" + keyValue
     
     dataResult = requests.get(dataURL)
